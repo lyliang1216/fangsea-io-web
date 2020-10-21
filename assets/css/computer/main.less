@@ -1,0 +1,192 @@
+/****************body****************/
+#components-layout-computer-top {
+    padding-top: 70px;
+    min-width: 1200px;
+    .ant-layout-header{
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+        z-index: 1061;
+        height: 70px;
+        line-height: 70px;
+        padding: 0;
+    }
+    .ant-layout-sider {
+        margin-bottom: 26px;
+        min-height: 785px;
+    }
+
+    .header-content {
+        width: 1200px;
+        margin: 0 auto;
+        position: relative;
+
+        .menu-right {
+            position: absolute;
+            top: 0;
+            right: 0;
+            display: flex;
+
+            .ant-dropdown-link {
+                text-decoration: none;
+                color: #ffffff;
+            }
+        }
+
+        .line {
+            color: #979797;
+        }
+
+        .menu-bt {
+            padding: 0 3px;
+            border: none;
+        }
+
+        .setting {
+            cursor: pointer;
+            margin: 0 15px;
+        }
+    }
+
+    .logo {
+        background-image: url('../../../static/content/logo.png');
+        width: 44px;
+        height: 41px;
+        float: left;
+        margin: 10px 20px;
+        background-repeat: round;
+    }
+
+    .content {
+        background: #fff;
+        padding: 24px;
+        min-height: e("calc(100vh - 179px)")
+    }
+
+    footer {
+        text-align: center;
+        padding-top: 1px;
+        background-color: #EBEBEB;
+        .footer-items{
+            width: 1140px;
+            display: flex;
+            justify-content: space-between;
+            margin: 69px auto 0;
+            .item{
+                min-width: 100px;
+                p{
+                    text-align: left;
+                    margin-bottom: 0;
+                    &.item-tt{
+                        color: #333;
+                        font-size: 16px;
+                        font-weight: 600;
+                        line-height: 16px;
+                        margin-bottom: 36px;
+                        cursor: pointer;
+                        &:hover{
+                            color: #2EA9DF;
+                        }
+                    }
+                    &.item-href{
+                        margin-bottom: 16px;
+                        font-size: 14px;
+                        line-height: 14px;
+                        cursor: pointer;
+                        color: #666;
+                        &:hover{
+                            color: #2EA9DF;
+                        }
+                        a{
+                            color: #666;
+                            display: flex;
+                            align-items: center;
+                            &:hover{
+                                color: #2EA9DF;
+                            }
+                            svg{
+                                display: inline-block;
+                                width: 18px;
+                                height: 18px;
+                                margin-right: 4px;
+                            }
+                        }
+                    }
+                    &.item-href-disabled{
+                        cursor: default;
+                        margin-top: 14px;
+                        font-size: 14px;
+                        line-height: 14px;
+                        color: #999;
+                        &:hover{
+                            color: #999;
+                        }
+                        a{
+                            color: #999;
+                            display: flex;
+                            align-items: center;
+                            &:hover{
+                                color: #999;
+                            }
+                            svg{
+                                display: inline-block;
+                                width: 18px;
+                                height: 18px;
+                                margin-right: 4px;
+                            }
+                        }
+                    }
+                    &.p-svg{
+                        position: relative;
+                        margin-top: 10px;
+                        display: flex;
+                        justify-content: flex-start;
+                        align-items: center;
+                        svg:first-child{
+                            position: absolute;
+                            left: 0;
+                            top: 50%;
+                            transform: translate(0,-50%);
+                            display: none;
+                        }
+                        &:hover{
+                            svg{
+                                display: inline-block;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .copyright{
+            font-size: 14px;
+            line-height: 14px;
+            color: #666;
+            text-align: center;
+            margin-top: 66px;
+            margin-bottom: 0;
+            padding-bottom: 70px;
+        }
+    }
+
+    /*区号蒙层*/
+    .my-code {
+        pointer-events: none;
+        width: 68px;
+        height: 34px;
+        line-height: 34px;
+        background-color: #ffffff;
+        position: absolute;
+        left: 1px;
+        top: 50%;
+        transform: translate(0, -50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 6px;
+    }
+}
+.ant-message {
+    z-index: 9999!important;
+}

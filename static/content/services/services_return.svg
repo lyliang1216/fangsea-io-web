@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="34px" viewBox="0 0 36 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>icon_return_png</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M31.1973229,0 L2.80267708,0 C1.25532627,0 0,1.34262898 0,2.99759158 C0,3.77482967 0,4.35775823 0,4.74637727 C0,8.88366632 0,15.0895999 0,23.364178 C0,25.0231969 1.25532627,26.3658258 2.80267708,26.3658258 L10.6873397,26.3658258 L10.6873397,28.9983521 L7.88466258,28.9983521 L7.88466258,32 L26.1115449,32 L26.1115449,31.266142 L26.1115449,28.9983521 L23.3088678,28.9983521 L23.3088678,26.3658258 L31.1973229,26.3658258 C32.7446737,26.3658258 34,25.0231969 34,23.364178 L34,2.99759158 C34,1.34262898 32.7446737,0 31.1973229,0 Z" id="path-1"></path>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="PC端跳转页-定稿-交互" transform="translate(-840.000000, -259.000000)">
+            <g id="编组-8" transform="translate(317.000000, 252.000000)">
+                <g id="3" transform="translate(388.000000, 0.000000)">
+                    <g id="icon_return_png" transform="translate(136.000000, 8.000000)">
+                        <g id="路径-2">
+                            <g>
+                                <mask id="mask-2" fill="white">
+                                    <use xlink:href="#path-1"></use>
+                                </mask>
+                                <use id="蒙版" stroke="#FFFFFF" fill="#2EA9DF" fill-rule="nonzero" xlink:href="#path-1"></use>
+                                <rect id="矩形" fill="#FFFFFF" mask="url(#mask-2)" x="0" y="21" width="34" height="1"></rect>
+                                <polygon fill="#FFFFFF" mask="url(#mask-2)" points="-2.36428571 4 -2.36428571 34 27.6357143 34"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

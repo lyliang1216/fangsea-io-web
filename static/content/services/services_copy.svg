@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="13px" viewBox="0 0 13 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>icon_copy_png</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="178" height="222" rx="12"></rect>
+        <filter x="-8.4%" y="-6.8%" width="116.9%" height="113.5%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="PC端跳转页-定稿" transform="translate(-830.000000, -434.000000)">
+            <rect id="矩形" fill="#FFFFFF" x="-1" y="0" width="1200" height="1079"></rect>
+            <rect id="矩形" stroke="#E8E8E8" fill="#FFFFFF" x="100" y="100" width="1000" height="837" rx="20"></rect>
+            <g id="编组-8" transform="translate(317.000000, 252.000000)">
+                <g id="3" transform="translate(388.000000, 0.000000)">
+                    <g id="蒙版备份" transform="translate(89.000000, 111.000000) scale(1, -1) translate(-89.000000, -111.000000) ">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <rect stroke="#E8E8E8" stroke-width="1" stroke-linejoin="square" fill="#FFFFFF" fill-rule="evenodd" x="0.5" y="0.5" width="177" height="221" rx="12"></rect>
+                    </g>
+                    <g id="icon_copy_png" transform="translate(41.000000, 180.000000)" fill="#AAAAAA" fill-rule="nonzero">
+                        <g id="复制" transform="translate(84.000000, 2.000000)">
+                            <path d="M10.2142746,9.28576882 L10.2142746,0.92854043 C10.2142746,0.415750892 9.79851588,0 9.28568205,0 L0.928575153,0 C0.415776031,0 0,0.415750909 0,0.92854043 L0,9.28576882 C0,9.79812445 0.415776031,10.2143266 0.928575153,10.2143266 L9.28568204,10.2143266 C9.79849853,10.2143266 10.2142746,9.79812445 10.2142746,9.28576882 Z M8.35714162,9.28576882 L1.85715031,9.28576882 C1.34435118,9.28576882 0.928575153,8.86956665 0.928575153,8.35722839 L0.928575153,1.85709821 C0.928575153,1.34430867 1.34435118,0.928540413 1.85715031,0.928540413 L8.35714162,0.928540413 C8.86994074,0.928540413 9.28568205,1.34429132 9.28568205,1.85709821 L9.28568205,8.35724575 C9.28568205,8.86956665 8.86992338,9.28576882 8.35714162,9.28576882 Z M12.0714075,2.78565601 L11.1428497,2.78565601 L11.1428497,3.71421381 C11.6556315,3.71421381 12.0714075,4.12998207 12.0714075,4.64297987 L12.0714075,11.1428844 C12.0714075,11.6552227 11.6556315,12.0714248 11.1428497,12.0714248 L4.64284103,12.0714249 C4.13004191,12.0714249 3.71426587,11.6552227 3.71426587,11.1428844 L2.78569072,11.1428844 L2.78569072,12.0714249 C2.78569072,12.5837805 3.20146675,13 3.71426587,13 L12.0714075,13 C12.584224,13 13,12.5837805 13,12.0714249 L13,3.71421381 C13,3.20140692 12.5842066,2.78565601 12.0714075,2.78565601 Z" id="形状"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
